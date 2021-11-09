@@ -1,1 +1,4 @@
 base_path: "C:/Users/SuperTom/weather_bike_analysis"
+fraction_to_check:  0.01
+fresh: False
+years: [2013,2014]
