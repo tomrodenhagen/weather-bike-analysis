@@ -9,7 +9,7 @@ with temperature until it gets too hot (around 30 Degree Celsius ).
 This plot also suggests, that naivly putting this into a linear model is not a good idea, 
 as the turning point at high temperatures adds some nonlinearity.
 Lets look at the precipation
-![](n_rides_vs_precipitation.png){width=50%}
+![](n_rides_vs_precipitation.png)
 This is not super easy to interpret. Lets try out some binary feature instead (plus a weekday 
 feature:
 ```
