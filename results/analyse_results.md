@@ -1,13 +1,15 @@
 This report is a description and interpretation of the code run in `analyse_data.py`
 We only investigate the per day and station aggregated data. 
 Lets look at the (maximum- ) temperature first in the plot
+
 ![](n_rides_vs_tmax.png)
+
 It seems consistent with the natural expectation, that the bike usuage increases 
-with temperature until it gets too hot (around 3 Degree Celsius ).
+with temperature until it gets too hot (around 30 Degree Celsius ).
 This plot also suggests, that naivly putting this into a linear model is not a good idea, 
 as the turning point at high temperatures adds some nonlinearity.
 Lets look at the precipation
-![](n_rides_vs_precipitation.png)
+![](n_rides_vs_precipitation.png){width=50%}
 This is not super easy to interpret. Lets try out some binary feature instead (plus a weekday 
 feature:
 ```
