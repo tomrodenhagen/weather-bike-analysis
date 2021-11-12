@@ -1,3 +1,6 @@
+import os,sys
+#This is a bit ugly
+sys.path.append(os.getcwd())
 from weather_bike_analysis.file_helpers import get_temp_data_path
 from weather_bike_analysis.engineer_data import engineer_data
 from weather_bike_analysis.analyse_data import analyse_per_station_and_day_data
@@ -8,7 +11,6 @@ from weather_bike_analysis.download_data import (
 from weather_bike_analysis.file_helpers import prepare_system
 import pandas as pd
 import hydra
-import os
 import logging
 
 
