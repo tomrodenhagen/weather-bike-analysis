@@ -1,0 +1,64 @@
+[2021-11-10 23:02:29,633][py4j.clientserver][INFO] - Error while receiving.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=1756>
+[2021-11-10 23:02:29,634][py4j.clientserver][INFO] - Closing down clientserver connection
+[2021-11-10 23:02:29,634][root][ERROR] - Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=1756>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2021-11-10 23:02:29,636][py4j.clientserver][INFO] - Error while receiving.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 292, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 1195, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1309, in __call__
+    return_value = get_return_value(
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\sql\utils.py", line 111, in deco
+    return f(*a, **kw)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o13.sc
+[2021-11-10 23:02:29,637][py4j.clientserver][INFO] - Closing down clientserver connection
+[2021-11-10 23:02:29,638][root][ERROR] - Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 292, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 1195, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1309, in __call__
+    return_value = get_return_value(
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\sql\utils.py", line 111, in deco
+    return f(*a, **kw)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o13.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving

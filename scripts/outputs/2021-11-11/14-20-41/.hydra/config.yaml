@@ -1,0 +1,9 @@
+base_path: C:/Users/SuperTom/weather_bike_analysis
+fraction_to_check: 0.01
+fraction_ride_data: 0.1
+fresh: false
+years:
+- 2013
+- 2014
+google_cloud_key_path: C:/Users/SuperTom/Downloads/key.json
+max_station_dist: 0.2

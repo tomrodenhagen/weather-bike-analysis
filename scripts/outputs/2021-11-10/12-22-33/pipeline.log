@@ -1,0 +1,137 @@
+[2021-11-10 12:22:37,822][py4j.clientserver][INFO] - Error while sending or receiving.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+[2021-11-10 12:22:37,825][py4j.clientserver][INFO] - Closing down clientserver connection
+[2021-11-10 12:22:37,826][root][INFO] - Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 470, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+[2021-11-10 12:22:39,856][py4j.clientserver][INFO] - Closing down clientserver connection
+[2021-11-10 12:22:39,857][py4j.clientserver][INFO] - Error while receiving.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 470, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 292, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 1195, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1308, in __call__
+    answer = self.gateway_client.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1053, in send_command
+    response = self.send_command(command, binary=binary)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1036, in send_command
+    connection = self._get_connection()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 281, in _get_connection
+    connection = self._create_new_connection()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 288, in _create_new_connection
+    connection.connect_to_java_server()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 402, in connect_to_java_server
+    self.socket.connect((self.java_address, self.java_port))
+ConnectionRefusedError: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte
+[2021-11-10 12:22:39,859][py4j.clientserver][INFO] - Closing down clientserver connection
+[2021-11-10 12:22:39,860][root][ERROR] - Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 470, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Users\SuperTom\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 292, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\pyspark\context.py", line 1195, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1308, in __call__
+    answer = self.gateway_client.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1053, in send_command
+    response = self.send_command(command, binary=binary)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1036, in send_command
+    connection = self._get_connection()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 281, in _get_connection
+    connection = self._create_new_connection()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 288, in _create_new_connection
+    connection.connect_to_java_server()
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 402, in connect_to_java_server
+    self.socket.connect((self.java_address, self.java_port))
+ConnectionRefusedError: [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving

@@ -1,0 +1,15 @@
+[2021-11-12 00:13:04,951][main_logger][INFO] - Download data
+[2021-11-12 00:13:05,128][main_logger][INFO] - Engineer data
+[2021-11-12 00:13:09,377][engineer_data_logger][INFO] - Load data into spark
+[2021-11-12 00:13:13,120][engineer_data_logger][INFO] - Do some simple transformations
+[2021-11-12 00:13:13,202][engineer_data_logger][INFO] - Find close weather stations to ride stations
+[2021-11-12 00:13:13,202][merge_stations_logger][INFO] - Load into pandas
+[2021-11-12 00:13:26,936][merge_stations_logger][INFO] - Process 330 ride stations and 4462 weather stations
+[2021-11-12 00:13:26,939][merge_stations_logger][INFO] - Building KD-Tree
+[2021-11-12 00:13:26,943][merge_stations_logger][INFO] - Query points
+[2021-11-12 00:13:27,191][engineer_data_logger][INFO] - Cross joining with dates
+[2021-11-12 00:13:27,209][engineer_data_logger][INFO] - Join with weather data
+[2021-11-12 00:13:27,228][engineer_data_logger][INFO] - Aggregate weather data
+[2021-11-12 00:13:27,281][engineer_data_logger][INFO] - Join with ride data
+[2021-11-12 00:13:27,312][engineer_data_logger][INFO] - Get per day data
+[2021-11-12 00:15:26,764][main_logger][INFO] - Analyse data

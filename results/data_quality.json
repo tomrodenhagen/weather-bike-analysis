@@ -1,0 +1,28 @@
+{
+   "weather_data": {
+      "weather_station_id_missing_values": 0.0,
+      "prcp_missing_values": 0.03260524694190605,
+      "tmin_missing_values": 0.6857774048483736,
+      "tmax_missing_values": 0.6854863451024609,
+      "neg_prec": 0.0,
+      "tmax<tmin": 0.0,
+      "invalid_month": 0.0,
+      "invalid_days": 0.0
+   },
+   "ride_data": {
+      "Inconsistent tripduration": 0.0,
+      "invalid_month": 0.0,
+      "invalid_days": 0.0
+   },
+   "weather_per_station_and_day": {
+      "date_missing_values": 0.0,
+      "ride_station_id_missing_values": 0.0,
+      "tmax_missing_values": 0.0,
+      "tmin_missing_values": 0.0,
+      "prcp_missing_values": 0.0,
+      "neg_prec": 0.0,
+      "tmax<tmin": 0.0,
+      "invalid_month": 0.0,
+      "invalid_days": 0.0
+   }
+}

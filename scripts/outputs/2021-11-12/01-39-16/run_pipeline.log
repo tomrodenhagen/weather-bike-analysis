@@ -1,0 +1,8 @@
+[2021-11-12 01:39:16,796][main_logger][INFO] - Download data
+[2021-11-12 01:39:34,724][pandas_gbq.gbq][INFO] - Total time taken 17.83 s.
+Finished at 2021-11-12 01:39:34.
+[2021-11-12 01:40:01,832][pandas_gbq.gbq][INFO] - Total time taken 26.64 s.
+Finished at 2021-11-12 01:40:01.
+[2021-11-12 01:40:31,790][pandas_gbq.gbq][INFO] - Total time taken 26.93 s.
+Finished at 2021-11-12 01:40:31.
+[2021-11-12 01:42:10,529][main_logger][INFO] - Engineer data

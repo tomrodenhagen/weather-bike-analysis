@@ -1,0 +1,35 @@
+[2021-11-11 14:41:10,130][py4j.clientserver][INFO] - Error while sending or receiving.
+Chained exceptions have been truncated to avoid stack overflow in traceback formatting:
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SuperTom\PycharmProjects\weather-bike-analysis\venv\lib\site-packages\py4j\clientserver.py", line 467, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+[2021-11-11 14:41:10,132][py4j.clientserver][INFO] - Closing down clientserver connection

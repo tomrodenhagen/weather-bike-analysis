@@ -1,0 +1,14 @@
+base_path: C:/Users/SuperTom/weather_bike_analysis
+fraction_to_check: 0.01
+fresh: false
+years:
+- 2013
+- 2014
+weather_columns:
+- UTC_DATE
+- UTC_TIME
+- LONGITUDE
+- LATITUDE
+- T_HR_AVG
+- P_CALC
+- SOLARAD

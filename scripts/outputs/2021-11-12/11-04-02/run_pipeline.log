@@ -1,0 +1,7 @@
+[2021-11-12 11:04:02,784][main_logger][INFO] - Download data
+[2021-11-12 11:04:03,000][main_logger][INFO] - Engineer data
+[2021-11-12 11:04:08,035][engineer_data_logger][INFO] - Load data into spark
+[2021-11-12 11:04:12,321][engineer_data_logger][INFO] - None
+[2021-11-12 11:04:12,443][engineer_data_logger][INFO] - None
+[2021-11-12 11:04:12,550][engineer_data_logger][INFO] - None
+[2021-11-12 11:04:12,550][engineer_data_logger][INFO] - Do some simple transformations

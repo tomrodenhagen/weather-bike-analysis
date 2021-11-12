@@ -1,0 +1,14 @@
+base_path: C:/Users/SuperTom/weather_bike_analysis
+fraction_to_check: 0.01
+fraction_ride_data: 1.0
+fresh: false
+fresh_engineering: false
+years:
+- 2013
+- 2014
+google_cloud_key_path: C:/Users/SuperTom/Downloads/key.json
+max_station_dist: 0.2
+number_of_close_stations: 20
+roi_size: 3
+ride_file_names:
+- 201307-201402-citibike-tripdata.zip

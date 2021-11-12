@@ -1,0 +1,5 @@
+[2021-11-11 18:38:23,872][main_logger][INFO] - Download data
+[2021-11-11 18:38:42,469][pandas_gbq.gbq][INFO] - Total time taken 18.54 s.
+Finished at 2021-11-11 18:38:42.
+[2021-11-11 18:38:48,796][main_logger][INFO] - Load cached data
+[2021-11-11 18:38:50,467][main_logger][INFO] - Analyse data

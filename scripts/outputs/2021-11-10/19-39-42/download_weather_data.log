@@ -1,0 +1,4 @@
+[2021-11-10 19:39:45,855][google.auth.compute_engine._metadata][WARNING] - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2021-11-10 19:39:48,870][google.auth.compute_engine._metadata][WARNING] - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2021-11-10 19:39:51,879][google.auth.compute_engine._metadata][WARNING] - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2021-11-10 19:39:51,879][google.auth._default][WARNING] - Authentication failed using Compute Engine authentication due to unavailable metadata server.
