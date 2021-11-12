@@ -9,8 +9,8 @@ from sklearn.preprocessing import OneHotEncoder
 
 def analyse_per_station_and_day_data(df):
     # Hydra does some strange things with the cwd
-    print(os.getcwd())
-    save_path = "results"
+    save_path = "../../../results"
+    print(os.listdir(save_path))
     # Plots
     tmax_per_day = df.groupby("date").mean()["tmax"]
     rides_per_day = df.groupby("date").sum()["n_rides"]
